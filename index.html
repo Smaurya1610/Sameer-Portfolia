@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sameer Kushwaha | Portfolio</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+</head>
+
+
+<body>
+
+    <!-- Scroll Progress -->
+    <div id="progressBar"></div>
+
+    <!-- Back To Top -->
+    <button id="topBtn">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+                Sameer<span>.</span>
+            </div>
+
+            <ul class="nav-links">
+
+                <li><a href="#home">Home</a></li>
+
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#skills">Skills</a></li>
+
+                <li><a href="#projects">Projects</a></li>
+
+                <li><a href="#experience">Experience</a></li>
+
+                <li><a href="#certificates">Certificates</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-left" data-aos="fade-right">
+
+            <p class="intro">
+                Hello, I'm
+            </p>
+
+            <h1>
+
+                Sameer
+                <span>Kushwaha</span>
+
+            </h1>
+
+            <h2>
+
+                <span id="typing"></span>
+
+            </h2>
+
+            <p class="hero-text">
+
+                Computer Science undergraduate passionate about
+                Python Development, Full Stack Development,
+                Data Structures and Problem Solving.
+
+                I enjoy building clean, responsive and
+                user-friendly applications.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="resume.pdf" download class="btn">
+
+                    <i class="fas fa-download"></i>
+
+                    Resume
+
+                </a>
+
+                <a href="https://github.com/Smaurya1610" target="_blank" class="btn btn-outline">
+
+                    <i class="fab fa-github"></i>
+
+                    GitHub
+
+                </a>
+
+                <a href="https://linkedin.com/in/sameer-kushwaha-2ba634364" target="_blank" class="btn btn-outline">
+
+                    <i class="fab fa-linkedin"></i>
+
+                    LinkedIn
+
+                </a>
+
+            </div>
+
+            <div class="social-icons">
+
+                <a href="mailto:sameerkushwaha1610@gmail.com">
+
+                    <i class="fas fa-envelope"></i>
+
+                </a>
+
+                <a href="https://github.com/Smaurya1610" target="_blank">
+
+                    <i class="fab fa-github"></i>
+
+                </a>
+
+                <a href="https://linkedin.com/in/sameer-kushwaha-2ba634364" target="_blank">
+
+                    <i class="fab fa-linkedin"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Right -->
+
+        <div class="hero-right" data-aos="fade-left">
+
+            <div class="image-box">
+
+                <img src="images/profile.jpg" alt="Sameer Kushwaha" class="profile-img">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ABOUT STARTS HERE -->
+    <!-- ================= ABOUT ================= -->
+
+    <section class="about section" id="about">
+
+        <div class="section-title" data-aos="fade-up">
+            <h2>About Me</h2>
+            <p>Know more about me</p>
+        </div>
+
+        <div class="about-container">
+
+            <div class="about-card" data-aos="fade-right">
+
+                <h3>Who am I?</h3>
+
+                <p>
+                    I'm <strong>Sameer Kushwaha</strong>, a Computer Science undergraduate
+                    from Kamla Nehru Institute of Physical and Social Sciences,
+                    Sultanpur.
+                </p>
+
+                <p>
+                    I enjoy developing responsive websites,
+                    solving Data Structures problems,
+                    and building Python applications.
+                </p>
+
+                <div class="info-grid">
+
+                    <div>
+                        <span>Name</span>
+                        <h4>Sameer Kushwaha</h4>
+                    </div>
+
+                    <div>
+                        <span>Email</span>
+                        <h4>sameerkushwaha1610@gmail.com</h4>
+                    </div>
+
+                    <div>
+                        <span>Education</span>
+                        <h4>B.Tech CSE</h4>
+                    </div>
+
+                    <div>
+                        <span>CGPA</span>
+                        <h4>8.43</h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+
+    <section class="skills section" id="skills">
+
+        <div class="section-title" data-aos="fade-up">
+
+            <h2>Skills</h2>
+            <p>Technologies I work with</p>
+
+        </div>
+
+        <div class="skills-grid">
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fas fa-database"></i>
+                <h3>SQL</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fas fa-code"></i>
+                <h3>C Language</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fas fa-chart-line"></i>
+                <h3>Pandas</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fas fa-square-root-alt"></i>
+                <h3>NumPy</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fas fa-laptop-code"></i>
+                <h3>DSA</h3>
+            </div>
+
+            <div class="skill-card" data-aos="zoom-in">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section class="projects section" id="projects">
+
+        <div class="section-title" data-aos="fade-up">
+
+            <h2>Projects</h2>
+
+            <p>Some of my recent work</p>
+
+        </div>
+
+        <div class="project-grid">
+
+            <div class="project-card" data-aos="fade-up">
+
+                <h3>Tic Tac Toe AI</h3>
+
+                <p>
+                    AI-based game using Minimax Algorithm
+                    for optimal decision making.
+                </p>
+
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    Responsive personal portfolio using
+                    HTML CSS JavaScript.
+                </p>
+
+            </div>
+
+            <div class="project-card" data-aos="fade-up">
+
+                <h3>Multi Guess Mania</h3>
+
+                <p>
+                    Python guessing game with multiple levels
+                    and score system.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+
+    <section class="experience section" id="experience">
+
+        <div class="section-title">
+
+            <h2>Experience</h2>
+
+            <p>Internship</p>
+
+        </div>
+
+        <div class="timeline">
+
+            <div class="timeline-box" data-aos="fade-right">
+
+                <h3>AI Intern</h3>
+
+                <h4>CodSoft</h4>
+
+                <span>July 2025</span>
+
+                <p>
+
+                    Developed Tic Tac Toe AI,
+                    Rule Based Chatbot,
+                    improved problem solving skills.
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CERTIFICATES ================= -->
+
+    <section class="certificates section" id="certificates">
+
+        <div class="section-title">
+
+            <h2>Certificates</h2>
+
+            <p>Learning Never Stops</p>
+
+        </div>
+
+        <div class="certificate-grid">
+
+            <div class="certificate-card">
+                Google Cloud Generative AI
+            </div>
+
+            <div class="certificate-card">
+                Microsoft Cybersecurity
+            </div>
+
+            <div class="certificate-card">
+                HackerRank Python
+            </div>
+
+            <div class="certificate-card">
+                CodSoft AI Internship
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact section" id="contact">
+
+        <div class="section-title">
+
+            <h2>Contact Me</h2>
+
+            <p>Let's Connect</p>
+
+        </div>
+
+        <form id="contact-form">
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="email" placeholder="Your Email" required>
+
+            <input type="text" placeholder="Subject" required>
+
+            <textarea rows="6" placeholder="Your Message" required></textarea>
+
+            <button type="submit" class="btn">
+
+                Send Message
+
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h2>Sameer Kushwaha</h2>
+
+        <p>
+
+            Python Developer |
+            Full Stack Learner |
+            Open to Internship
+
+        </p>
+
+        <div class="footer-icons">
+
+            <a href="mailto:sameerkushwaha1610@gmail.com">
+
+                <i class="fas fa-envelope"></i>
+
+            </a>
+
+            <a href="https://github.com/Smaurya1610" target="_blank">
+
+                <i class="fab fa-github"></i>
+
+            </a>
+
+            <a href="https://linkedin.com/in/sameer-kushwaha-2ba634364" target="_blank">
+
+                <i class="fab fa-linkedin"></i>
+
+            </a>
+
+        </div>
+
+        <p class="copyright">
+
+            © 2026 Sameer Kushwaha.
+            All Rights Reserved.
+
+        </p>
+
+    </footer>
+
+    <!-- AOS -->
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- JS -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
